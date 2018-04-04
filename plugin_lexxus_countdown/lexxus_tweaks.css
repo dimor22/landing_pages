@@ -1,0 +1,41 @@
+.counter-container {
+    margin: 0px auto;
+}
+
+.counter-container figure ul{
+    left: 8px !important;
+}
+
+.counter-container span{
+    display: none;
+}
+
+.timeTo{
+    height: auto;
+    font-weight: normal;
+}
+
+.timeTo figure{
+    padding: 0 7px;
+    max-width: 100px !important;
+}
+
+.timeTo figure div{
+    margin-left: 3px;
+    border: none;
+    box-shadow: 0 0 14px #0000007a;
+}
+
+
+
+@media (min-width: 768px) {
+    .counter-container {
+        margin: 20px auto 10px;
+    }
+    .counter-container figure ul{
+        left: 9px !important;
+    }
+    .timeTo figure{
+        max-width: 114px !important;
+    }
+}
