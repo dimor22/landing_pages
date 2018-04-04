@@ -2,4 +2,4 @@
 .DS_Store
 /templates
 *.php
-
+/css/*.scss
